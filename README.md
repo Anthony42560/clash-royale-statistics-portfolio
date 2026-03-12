@@ -72,10 +72,22 @@ Higher mood levels are associated with higher predicted win probability.
 
 ---
 
-## Visualization
-
-![Win Probability by Mood](figures/mood_win_probability.png)
-
----
-
 ## Repository Structure
+
+clash-royale-statistics-portfolio/
+│
+├── data/
+│   └── clash_royale_dataset.txt        # Dataset used for the analysis (tab-separated format)
+│
+├── analysis/
+│   └── clash_royale_analysis.Rmd       # R Markdown file containing all statistical analysis and code
+│
+├── figures/
+│   └── mood_win_probability.png        # Visualization generated from the binomial regression analysis
+│
+├── report/
+│   └── clash_royale_analysis.pdf       # Compiled PDF report generated from the R Markdown file
+│
+├── dataset_origin.jpeg                 # Screenshot showing the origin of the dataset from the Clash Royale game
+│
+└── README.md                           # Project overview and documentation
