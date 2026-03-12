@@ -1,4 +1,5 @@
 Reproducible research project created using RMarkdown.
+
 # Clash Royale Gameplay Statistical Analysis
 
 ![R](https://img.shields.io/badge/language-R-blue)
